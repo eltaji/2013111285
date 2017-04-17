@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2013111285
+namespace ensambladoraProject.Entities
 {
-    class TipoBus
+    class Llanta
     {
-        enum TipoBus { Publico, Privado, NoDefinido };
+        string NumSerie { get; }
     }
 }

@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2013111285
+namespace ensambladoraProject.Entities
 {
-    class TipoAuto
+  public  enum TipoCarro
     {
-        enum TipoAuto
-        {
-            Sedan, PickUp, Coupe, HatchBack, NoDefinido};
+        bus, automovil 
     }
 }

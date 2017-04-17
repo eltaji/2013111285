@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Programa
+namespace ensambladoraProject.Entities
 {
-    class Program
+   public class Volante
     {
-        static void Main(string[] args)
-        {
-        }
+      public  string NumSerie { get; set; }
     }
 }

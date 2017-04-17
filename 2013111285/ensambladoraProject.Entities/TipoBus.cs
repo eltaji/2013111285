@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2013111285
+namespace ensambladoraProject.Entities
 {
-    class Program
+    public enum TipoBus
     {
-        static void Main(string[] args)
-        {
-        }
+        Publico, Privado, NoDefinido
     }
 }

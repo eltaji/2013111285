@@ -4,12 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2013111285
+namespace ensambladoraProject.Entities
 {
-    class Ensambladora
+    public class Cinturon 
     {
-
-        
-      
+        string NumSerie;
+        string Metraje;
     }
 }

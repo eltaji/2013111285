@@ -4,25 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _2013111285
+namespace ensambladoraProject.Entities
 {
+    
+
     class Asiento
     {
+        string NumSerie { get; set; }
         Cinturon _cinturon;
 
-        public string NumSerie { get; set; }
-
-        public Asiento()
-        {
-
-
-       }
-
-        public Asiento(String _numSerie)
-        {
-            NumSerie = _numSerie;
+        public Asiento() {
             _cinturon = new Cinturon();
         }
     }
-
 }
